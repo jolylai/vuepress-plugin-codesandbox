@@ -6230,6 +6230,10 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-plugin-demo-block@^0.7.0:
+  version "0.7.0"
+  resolved "http://registry.npm.taobao.org/vuepress-plugin-demo-block/download/vuepress-plugin-demo-block-0.7.0.tgz#f47f2ff8cf396bf01c84b66ea1cfcb19300e1f40"
+
 vuepress@^1.0.0-alpha.37:
   version "1.0.0-alpha.37"
   resolved "http://registry.npm.taobao.org/vuepress/download/vuepress-1.0.0-alpha.37.tgz#3a3a67926aae5df9897dac83ab46360bc2092db5"
