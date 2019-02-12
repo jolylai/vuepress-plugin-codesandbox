@@ -4,7 +4,7 @@
 
 ```html
 <html>
-  <p>文字<img src="./public/images/delete@2x.png" alt="foo" /></p>
+  <p>文字<img src="/images/delete@2x.png" alt="foo" /></p>
 </html>
 
 <style>

@@ -17,14 +17,25 @@ module.exports = {
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" }
     ]
   ],
-  plugins: [
-    [
-      "demo-block",
+  plugins: [["demo-block"]],
+  themeConfig: {
+    nav: [
       {
-        settings: {
-          codepen: false
-        }
+        text: "CSS世界",
+        link: "/css-world/"
       }
-    ]
-  ]
+    ],
+    sidebar: {
+      "/css-world/": getCssWorldSiderBar()
+    }
+  }
 };
+function getCssWorldSiderBar() {
+  return [
+    {
+      title: "文本处理",
+      collapsable: false,
+      children: ["font-family", "font"]
+    }
+  ];
+}
