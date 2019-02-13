@@ -35,7 +35,13 @@ function getCssWorldSiderBar() {
     {
       title: "文本处理",
       collapsable: false,
-      children: ["font-size", "font-family", "font", "font-face"]
+      children: [
+        "font-size",
+        "font-family",
+        "font",
+        "font-face",
+        "text-control"
+      ]
     }
   ];
 }
