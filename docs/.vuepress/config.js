@@ -1,5 +1,9 @@
 module.exports = {
+  title: "NoteBook CSS",
+  description: "🚀 CSS 学习笔记",
+  base: "/notebook-css/",
   head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     [
       "script",
       { src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" }
