@@ -44,7 +44,9 @@ function getCssWorldSiderBar() {
         "font-family",
         "font",
         "font-face",
-        "text-control"
+        "text-control",
+        "dot",
+        "vertical-align"
       ]
     }
   ];
