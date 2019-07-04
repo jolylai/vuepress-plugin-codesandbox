@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>打点动画 | NoteBook CSS</title>
+    <meta name="description" content="🚀 CSS 学习笔记">
+    <link rel="icon" href="/notebook-css/favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"></script>
+    
+    <link rel="preload" href="/notebook-css/assets/css/0.styles.e77b568a.css" as="style"><link rel="preload" href="/notebook-css/assets/js/app.4295d0ec.js" as="script"><link rel="preload" href="/notebook-css/assets/js/2.4c8dba5d.js" as="script"><link rel="preload" href="/notebook-css/assets/js/7.4e3715b8.js" as="script"><link rel="prefetch" href="/notebook-css/assets/js/10.c4e143f6.js"><link rel="prefetch" href="/notebook-css/assets/js/11.c44d4ff4.js"><link rel="prefetch" href="/notebook-css/assets/js/12.860fb242.js"><link rel="prefetch" href="/notebook-css/assets/js/13.774a26a6.js"><link rel="prefetch" href="/notebook-css/assets/js/14.28a0ed84.js"><link rel="prefetch" href="/notebook-css/assets/js/15.ffbfdd10.js"><link rel="prefetch" href="/notebook-css/assets/js/3.43b86d2d.js"><link rel="prefetch" href="/notebook-css/assets/js/4.11d613bd.js"><link rel="prefetch" href="/notebook-css/assets/js/5.decdd382.js"><link rel="prefetch" href="/notebook-css/assets/js/6.2350ae76.js"><link rel="prefetch" href="/notebook-css/assets/js/8.ef5fda6d.js"><link rel="prefetch" href="/notebook-css/assets/js/9.fb9cd85a.js">
+    <link rel="stylesheet" href="/notebook-css/assets/css/0.styles.e77b568a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/notebook-css/" class="home-link router-link-active"><!----> <span class="site-name">NoteBook CSS</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/notebook-css/css-world/" class="nav-link router-link-active">CSS世界</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/notebook-css/css-world/" class="nav-link router-link-active">CSS世界</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>文本处理</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/notebook-css/css-world/font-size.html" class="sidebar-link">font-size</a></li><li><a href="/notebook-css/css-world/font-family.html" class="sidebar-link">font-family</a></li><li><a href="/notebook-css/css-world/font.html" class="sidebar-link">font</a></li><li><a href="/notebook-css/css-world/font-face.html" class="sidebar-link">@font face</a></li><li><a href="/notebook-css/css-world/text-control.html" class="sidebar-link">文本控制</a></li><li><a href="/notebook-css/css-world/dot.html" class="active sidebar-link">打点动画</a></li><li><a href="/notebook-css/css-world/vertical-align.html" class="sidebar-link">vertical-align</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="打点动画"><a href="#打点动画" aria-hidden="true" class="header-anchor">#</a> 打点动画</h1> <div data-config="" data-type="vue" data-code="%3Ctemplate%3E%0A%20%20%3Cdot%20class%3D%22cw-dot-animation%22%3E...%3C%2Fdot%3E%0A%3C%2Ftemplate%3E%0A%3Cscript%3E%0A%20%20export%20default%20%7B%7D%3B%0A%3C%2Fscript%3E%0A%3Cstyle%3E%0A%20%20.cw-dot-animation%20%7B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20height%3A%201em%3B%0A%20%20%20%20line-height%3A%201%3B%0A%20%20%20%20overflow%3A%20hidden%3B%0A%20%20%20%20text-align%3A%20left%3B%0A%20%20%20%20vertical-align%3A%20-0.25em%3B%0A%20%20%7D%0A%20%20.cw-dot-animation%3Abefore%20%7B%0A%20%20%20%20display%3A%20block%3B%0A%20%20%20%20content%3A%20%22...%5CA..%5CA.%22%3B%0A%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20animation%3A%20cw-dot%203s%20infinite%20step-start%20both%3B%0A%20%20%7D%0A%20%20%40keyframes%20cw-dot%20%7B%0A%20%20%20%2033%25%20%7B%0A%20%20%20%20%20%20transform%3A%20translateY(-2em)%3B%0A%20%20%20%20%7D%0A%20%20%20%2066%25%20%7B%0A%20%20%20%20%20%20transform%3A%20translateY(-1em)%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%3C%2Fstyle%3E%0A" class="vuepress-plugin-demo-block__wrapper" style="display:none;"><div class="vuepress-plugin-demo-block__display"><div class="vuepress-plugin-demo-block__app"></div></div> <div class="vuepress-plugin-demo-block__code"><div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dot</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>cw-dot-animation<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dot</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">.cw-dot-animation</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+    <span class="token property">line-height</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+    <span class="token property">vertical-align</span><span class="token punctuation">:</span> -0.25em<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.cw-dot-animation:before</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;...\A..\A.&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> pre-wrap<span class="token punctuation">;</span>
+    <span class="token property">animation</span><span class="token punctuation">:</span> cw-dot 3s infinite step-start both<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token atrule"><span class="token rule">@keyframes</span> cw-dot</span> <span class="token punctuation">{</span>
+    <span class="token selector">33%</span> <span class="token punctuation">{</span>
+      <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateY</span><span class="token punctuation">(</span>-2em<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token selector">66%</span> <span class="token punctuation">{</span>
+      <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateY</span><span class="token punctuation">(</span>-1em<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <div class="vuepress-plugin-demo-block__footer"></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/notebook-css/css-world/text-control.html" class="prev">
+          文本控制
+        </a></span> <span class="next"><a href="/notebook-css/css-world/vertical-align.html">
+          vertical-align
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/notebook-css/assets/js/app.4295d0ec.js" defer></script><script src="/notebook-css/assets/js/2.4c8dba5d.js" defer></script><script src="/notebook-css/assets/js/7.4e3715b8.js" defer></script>
+  </body>
+</html>
