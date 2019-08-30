@@ -27,27 +27,15 @@ module.exports = {
       {
         text: "CSS世界",
         link: "/css-world/"
+      },
+      {
+        text: "小测",
+        link: "/quiz/"
       }
     ],
     sidebar: {
-      "/css-world/": getCssWorldSiderBar()
+      "/css-world/": require('./siderbar/css-world'),
+      "/quiz/": require('./siderbar/quiz')
     }
   }
 };
-function getCssWorldSiderBar() {
-  return [
-    {
-      title: "文本处理",
-      collapsable: false,
-      children: [
-        "font-size",
-        "font-family",
-        "font",
-        "font-face",
-        "text-control",
-        "dot",
-        "vertical-align"
-      ]
-    }
-  ];
-}
