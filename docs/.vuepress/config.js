@@ -25,17 +25,18 @@ module.exports = {
   themeConfig: {
     nav: [
       {
-        text: "CSS世界",
-        link: "/css-world/"
-      },
-      {
-        text: "小测",
-        link: "/quiz/"
+        text: "BootStrap",
+        link: "/bootstrap/"
       }
+      // {
+      //   text: "CSS世界",
+      //   link: "/css-world/"
+      // },
+      // {
+      //   text: "小测",
+      //   link: "/quiz/"
+      // }
     ],
-    sidebar: {
-      "/css-world/": require('./siderbar/css-world'),
-      "/quiz/": require('./siderbar/quiz')
-    }
+    sidebar: require("./siderbar/index")
   }
 };
