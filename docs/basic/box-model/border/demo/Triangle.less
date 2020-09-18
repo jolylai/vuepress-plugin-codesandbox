@@ -1,0 +1,87 @@
+.list {
+  font-size: 1rem;
+  //   重置 ul 默认样式
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-item {
+  padding: 0.5em 1em;
+  border: 1px solid #dbdbdb;
+  display: block;
+  // a 列表
+  color: #495057;
+}
+
+// a 列表
+.list-item:hover {
+  color: #495057;
+}
+
+.list-item.active {
+  background-color: #0bffb0;
+}
+
+.list .list-item:first-child {
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+}
+
+.list .list-item:last-child {
+  border-bottom-left-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+}
+
+.list .list-item:not(:first-child) {
+  margin-top: -1px;
+}
+
+.triangle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.triangle-down::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+
+  border-top: 6px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.triangle-up::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+
+  border-bottom: 6px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.triangle-right::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+
+  border-left: 6px solid;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+
+.triangle-left::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+
+  border-right: 6px solid;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
