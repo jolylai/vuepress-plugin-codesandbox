@@ -1,16 +1,9 @@
 ---
-title: 规范
-
-group:
-  title: 概览
-  path: /guide
-  order: 1
+title: 主题
+order: 3
 ---
 
-# 设计规范
-
-> [Ant Design 设计规范](https://ant.design/docs/spec/introduce-cn)
-
+[Ant Design 设计规范](https://ant.design/docs/spec/introduce-cn)
 [BootStrap CSS](https://github.com/twbs/bootstrap/blob/master/dist/css/bootstrap.css)
 
 ## 配色

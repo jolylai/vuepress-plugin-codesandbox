@@ -1,6 +1,18 @@
 ---
 title: 色彩
+order: 2
 ---
+
+## 调色板
+
+<code src="./demo/Palette.tsx" inline />
+
+## 配色
+
+- [中国色](http://zhongguose.com/#baochunhong)
+- [Flatuicolors](https://flatuicolors.com/)
+- [Adobe](https://color.adobe.com/create/)
+- [LolColors](http://www.lolcolors.com)
 
 ## 品牌色
 

@@ -1,10 +1,6 @@
 ---
 title: 边框
-
-group:
-  title: 盒子模型
-  path: /box-model
-  order: 30
+order: 3
 ---
 
 ## 半透明边框

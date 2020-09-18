@@ -1,13 +1,6 @@
-## 说说 CSS 选择器以及这些选择器的优先级
-
-- !important
-- 内联样式（1000）
-- ID 选择器（0100）
-- 类选择器/属性选择器/伪类选择器（0010）
-- 元素选择器/伪元素选择器（0001）
-- 关系选择器/通配符选择器（0000）
-
-## BFC
+---
+title: 格式化上下文
+---
 
 ### 什么是 BFC
 
@@ -25,6 +18,14 @@ BFC 全称为块级格式化上下文 (Block Formatting Context) 。BFC 是 W3C 
 - 弹性盒（flex 或 inline-flex）
 - display: flow-root
 - column-span: all
+
+---
+
+- `<html>`根元素;
+- float 的值不为 none;
+- overflow 的值为 auto、scroll 或 hidden;
+- display 的值为 table-cell、table-caption 和 inline-block 中的任何一个;
+- position 的值不为 relative 和 static。
 
 ### BFC 的约束规则
 

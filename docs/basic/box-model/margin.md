@@ -1,5 +1,3 @@
 ---
-title: margin
-group:
-  title: 盒模型
+title: 外边距
 ---

@@ -1,6 +1,5 @@
 ---
 title: 弱化背景
-
 group:
   title: 用户体验
 ---
