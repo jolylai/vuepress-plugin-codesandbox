@@ -117,3 +117,107 @@ CSS 浮动设计的初衷仅仅是实现文字环绕效果。
 ## 清除浮动
 
 > 元素盒子的边不能和前面的浮动元素相邻。
+
+## 双飞翼布局
+
+- 三栏布局，中间一栏最先加载和渲染
+- 两侧内容固定，中间内容随着宽度自适应
+- 使用 float 布局
+- 两侧使用 margin 负值以便和中间内容横向重叠
+- 防止中间内容被两侧覆盖，一个使用 padding 一个用 margin
+
+```jsx | inline
+import React from 'react';
+import styled from 'styled-components';
+
+const Header = styled.header``;
+
+const Container = styled.main`
+  padding-left: 200px;
+  padding-right: 150px;
+`;
+
+const Footer = styled.footer`
+  clear: both;
+`;
+
+const Content = styled.div`
+  background-color: #05ffb0;
+  width: 100%;
+  float: left;
+`;
+
+const Left = styled.div`
+  background-color: #00e7eb;
+  width: 200px;
+  float: left;
+  margin-left: -100%;
+  position: relative;
+  right: 200px;
+`;
+
+const Right = styled.div`
+  background-color: #ffdd57;
+  width: 150px;
+  float: left;
+  margin-right: -150px;
+`;
+
+export default () => {
+  return (
+    <>
+      <Header>Header</Header>
+      <Container>
+        <Content>Content</Content>
+        <Left>Left</Left>
+        <Right>Right</Right>
+      </Container>
+      <Footer>Footer</Footer>
+    </>
+  );
+};
+```
+
+## 双飞翼布局
+
+```jsx | inline
+import React from 'react';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  margin-left: 200px;
+  margin-right: 150px;
+  background-color: #05ffb0;
+`;
+
+const Content = styled.div`
+  width: 100%;
+  float: left;
+`;
+
+const Left = styled.div`
+  background-color: #00e7eb;
+  width: 200px;
+  float: left;
+  margin-left: -100%;
+`;
+
+const Right = styled.div`
+  background-color: #ffdd57;
+  width: 150px;
+  float: left;
+  margin-left: -150px;
+`;
+
+export default () => {
+  return (
+    <>
+      <Content>
+        <Container>Content</Container>
+      </Content>
+      <Left>Left</Left>
+      <Right>Right</Right>
+    </>
+  );
+};
+```
