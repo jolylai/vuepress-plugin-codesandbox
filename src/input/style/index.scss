@@ -1,0 +1,110 @@
+@import '../../style/theme/default';
+@import '../../style/theme/font';
+
+$border-radius: 2px;
+$focus-box-shadow: $shadow-spec-focus;
+$border-transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+$normal-size: 32px;
+$small-size: 24px;
+$large-size: 40px;
+
+.chengyou-input-wrapper {
+  @include theme-color(border-color, stroke, 5);
+  @include theme-color(background-color, stroke, 9);
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: $border-radius;
+  transition: $border-transition;
+  overflow: hidden;
+  align-items: center;
+
+  height: $normal-size;
+
+  .chengyou-input-addon-before,
+  .chengyou-input-addon-after {
+    line-height: $normal-size - 2px;
+  }
+
+  &.chengyou-input-small {
+    height: $small-size;
+
+    .chengyou-input-addon-before,
+    .chengyou-input-addon-after {
+      line-height: $normal-size - 2px;
+    }
+  }
+
+  &.chengyou-input-large {
+    height: $large-size;
+
+    .chengyou-input-addon-before,
+    .chengyou-input-addon-after {
+      line-height: $large-size - 2px;
+    }
+  }
+
+  .chengyou-input,
+  .chengyou-input[type='text'],
+  .chengyou-input[type='password'],
+  .chengyou-input[type='datetime'],
+  .chengyou-input[type='date'],
+  .chengyou-input[type='month'],
+  .chengyou-input[type='time'],
+  .chengyou-input[type='week'],
+  .chengyou-input[type='number'],
+  .chengyou-input[type='email'],
+  .chengyou-input[type='url'],
+  .chengyou-input[type='tel'],
+  .chengyou-input[type='color'],
+  .chengyou-input[type='search'],
+  .chengyou-textarea {
+    @include theme-color(color, stroke, 1);
+    display: inline-block;
+    flex: 1;
+    min-width: 80px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0;
+    font-size: $font-size-normal;
+    box-shadow: none;
+    appearance: none;
+    outline: none;
+    border: 0;
+  }
+
+  &.chengyou-input-focus {
+    @include theme-color(border-color, primary, 4);
+    box-shadow: $focus-box-shadow;
+  }
+}
+
+.chengyou-input-addon-before,
+.chengyou-input-addon-after {
+  @include theme-color(background-color, stroke, 8);
+  @include theme-color(color, stroke, 2);
+  display: inline-block;
+  height: 100%;
+  padding: 0 9px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: $font-size-normal;
+}
+.chengyou-input-addon-before {
+  @include theme-color(border-right-color, stroke, 5);
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.chengyou-input-addon-after {
+  @include theme-color(border-left-color, stroke, 5);
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.chengyou-input::placeholder {
+  @include theme-color(color, stroke, 4);
+}

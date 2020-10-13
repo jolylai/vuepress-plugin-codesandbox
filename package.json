@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "css",
+  "name": "chengyou",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -29,14 +29,17 @@
     ]
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "framer-motion": "^2.6.2",
     "react": "^16.12.0",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@umijs/plugin-sass": "^1.1.1",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
-    "dumi": "^1.0.9",
+    "dumi": "^1.0.34",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",

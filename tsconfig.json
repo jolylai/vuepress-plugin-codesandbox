@@ -10,6 +10,7 @@
     "baseUrl": "./",
     "strict": true,
     "paths": {
+      "chengyou": ["./src"],
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },

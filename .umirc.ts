@@ -1,9 +1,9 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  base: '/notebook-css',
+  base: '/notebook-css/',
   publicPath: '/notebook-css/',
-  title: 'CSS',
+  title: '橙柚',
   favicon: 'https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/css.svg',
   logo: 'https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/css.svg',
   outputPath: 'docs-dist',
