@@ -2,20 +2,17 @@
 
 # dependencies
 /node_modules
-/npm-debug.log*
-/yarn-error.log
-/yarn.lock
-/package-lock.json
 
 # production
-/dist
-/docs-dist
+dist
 
 # misc
 .DS_Store
+npm-debug.log*
+yarn-error.log
 
-# umi
-.umi
-.umi-production
-.umi-test
-.env.local
+/coverage
+.idea
+package-lock.json
+*bak
+jsconfig.json
