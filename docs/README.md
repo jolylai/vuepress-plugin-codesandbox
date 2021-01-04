@@ -13,13 +13,23 @@ features:
 footer: Copyright © 2019-present Jolylai
 ---
 
-## Todo
+## CSS
 
-- flex
-- progress
+- [ ] 选择器
+- [ ] 盒子模型
+- [ ] 定位、浮动
+- [ ] 过渡、动画
+- [ ] 2D、3D 转换
+- [ ] 边框圆角
+- [ ] 背景、渐变
 
 ## 资源
 
+- [codepen](https://codepen.io)
+- [awwwards](https://www.awwwards.com)
+- [csslayout](https://csslayout.io)
+- [css inspiration](https://chokcoco.github.io/CSS-Inspiration)
+- [animista](https://animista.net)
 - [Material](https://material-components.github.io/material-components-web-catalog/#/)
 - [Bootstrap](https://v3.bootcss.com/components/)
 - [挑战](https://css-tricks.com/front-end-challenges/)
