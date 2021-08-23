@@ -1,27 +1,19 @@
-# notebook-vue
+# notebook-css
 
-## Getting Started
+## CSS
 
-Install dependencies,
+- [ ] 选择器
+- [ ] 盒子模型
+- [ ] 定位、浮动
+- [ ] 过渡、动画
+- [ ] 2D、3D 转换
+- [ ] 边框圆角
+- [ ] 背景、渐变
 
-```bash
-$ npm i
-```
+## 参考资源
 
-Start the dev server,
-
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
-```
+- [codepen](https://codepen.io)
+- [awwwards](https://www.awwwards.com)
+- [csslayout](https://csslayout.io)
+- [css inspiration](https://chokcoco.github.io/CSS-Inspiration)
+- [animista](https://animista.net)
