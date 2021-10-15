@@ -12,19 +12,29 @@ module.exports = {
     nav: [
       {
         text: '指南',
-        link: '/box-model/margin/',
-        activeMatch: '^/box-model/'
+        link: '/guide/box-model/margin/',
+        activeMatch: '^/guide/'
       }
     ],
     sidebar: {
-      '/box-model/': [
+      '/guide/': [
         {
           text: '盒子模型',
           collapsable: false,
           children: [
-            { text: 'content', link: '/box-model/content/' },
-            { text: 'padding', link: '/box-model/padding/' },
-            { text: 'margin', link: '/box-model/margin/' }
+            { text: 'content', link: '/guide/box-model/content/' },
+            { text: 'padding', link: '/guide/box-model/padding/' },
+            { text: 'margin', link: '/guide/box-model/margin/' }
+          ]
+        },
+        {
+          text: '排版',
+          collapsable: false,
+          children: [
+            {
+              text: 'vertical-align',
+              link: '/guide/typography/vertical-align/'
+            }
           ]
         }
       ]
