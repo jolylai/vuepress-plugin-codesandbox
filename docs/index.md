@@ -5,14 +5,14 @@ home: true
 heroText: CSS
 tagline: Notebook of CSS
 actionText: Get Started
-actionLink: /guide/
+actionLink: /guide/box-model/content/
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: 盒模型
+    details: 盒模型
+  - title: 布局
+    details: 结构布局
+  - title: 排版
+    details: 文字排版
 footer: MIT Licensed | Copyright © 2021-present
 ---
 
@@ -33,3 +33,7 @@ footer: MIT Licensed | Copyright © 2021-present
 - [csslayout](https://csslayout.io)
 - [css inspiration](https://chokcoco.github.io/CSS-Inspiration)
 - [animista](https://animista.net)
+- [Material](https://material-components.github.io/material-components-web-catalog/#/)
+- [Bootstrap](https://v3.bootcss.com/components/)
+- [挑战](https://css-tricks.com/front-end-challenges/)
+- [30css](https://www.30secondsofcode.org/css/s/transform-centering/)

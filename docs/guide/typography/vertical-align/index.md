@@ -49,13 +49,11 @@ vertical-align 属性只能作用在 display 计算值为 inline、inline-block�
 }
 ```
 
-<!-- <float />
-
-<icon /> -->
+ <demo3 />
 
 <script setup>
-  import Float from './demos/float.vue'
-  import Icon from './demos/icon.vue'
+ 
   import demo1 from './demos/demo1.vue'
   import demo2 from './demos/demo2.vue'
+  import demo3 from './demos/demo3.vue'
 </script>
