@@ -11,31 +11,24 @@
 **包裹**: 假设浮动元素父元素宽度 200px，浮动元素子元素是一个 128px 宽度的图片， 则此时浮动元素宽度表现为“包裹”，就是里面图片的宽度 128px
 
 **自适应性**: 如果浮动元素的子元素不只是一张 128px 宽度的图片，还有一大波普通 的文字,则此时浮动元素宽度就自适应父元素的 200px 宽度，最终的宽度表现也是 200px。
-::: demo
 
-```html
-<template>
-  <div class="basis-float-wrap" style="width:200">
-    <div class="float">
-      <img
-        width="128"
-        src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/wallhaven-6k7jxw.jpg"
-      />
-      我是帅哥，好巧啊，我也是帅哥，原来看这本书的人都是帅哥~
-    </div>
+<sandpack />
+
+<div class="basis-float-wrap" style="width:200">
+  <div class="float">
+    <img
+      width="128"
+      src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/wallhaven-6k7jxw.jpg"
+    />
+    我是帅哥，好巧啊，我也是帅哥，原来看这本书的人都是帅哥~
   </div>
-</template>
-<script>
-  export default {};
-</script>
+</div>
+
 <style>
   .basis-float-wrap .float {
     float: left;
   }
 </style>
-```
-
-:::
 
 ### 块状化并格式化上下文
 
@@ -77,7 +70,7 @@ span {
   </div>
 </template>
 <script>
-  export default {};
+  export default {}
 </script>
 <style></style>
 ```
@@ -127,7 +120,7 @@ span {
   </ul>
 </template>
 <script>
-  export default {};
+  export default {}
 </script>
 <style>
   .basis-float-list-item {
@@ -148,10 +141,6 @@ span {
 </style>
 ```
 
-:::
-
-::: demo
-
 ```html
 <template>
   <ul class="basis-float-list">
@@ -170,7 +159,7 @@ span {
   </ul>
 </template>
 <script>
-  export default {};
+  export default {}
 </script>
 <style></style>
 ```
@@ -203,7 +192,7 @@ span {
   </div>
 </template>
 <script>
-  export default {};
+  export default {}
 </script>
 <style>
   .basis-float-flow .float-left {
@@ -254,7 +243,7 @@ span {
   </ul>
 </template>
 <script>
-  export default {};
+  export default {}
 </script>
 <style>
   .basis-float-clear {
@@ -282,7 +271,7 @@ span {
 .clearfix::after {
   display: block;
   clear: both;
-  content: "";
+  content: '';
 }
 ```
 

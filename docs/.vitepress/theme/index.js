@@ -1,9 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
-import naive from 'naive-ui'
+import sandpack from './components/sandpack.vue'
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
-    app.use(naive)
+    app.component('sandpack', sandpack)
   }
 }

@@ -31,8 +31,5 @@
     "prettier": "^1.19.1",
     "vitepress": "^0.20.0",
     "yorkie": "^2.0.0"
-  },
-  "dependencies": {
-    "naive-ui": "^2.16.2"
   }
 }

@@ -36,6 +36,14 @@ module.exports = {
               link: '/guide/typography/vertical-align/'
             }
           ]
+        },
+        {
+          text: '布局',
+          collapsable: false,
+          children: [
+            { text: '浮动', link: '/guide/layout/float/' },
+            { text: 'Flex', link: '/guide/layout/flex/' }
+          ]
         }
       ]
     }
