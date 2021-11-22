@@ -38,11 +38,13 @@ module.exports = {
           ]
         },
         {
-          text: '布局',
+          text: '结构与布局',
           collapsable: false,
           children: [
             { text: '浮动', link: '/guide/layout/float/' },
-            { text: 'Flex', link: '/guide/layout/flex/' }
+            { text: 'Flex', link: '/guide/layout/flex/' },
+            { text: '自适应内部元素', link: '/guide/layout/intrinsic-sizing/' },
+            { text: '圣杯布局', link: '/guide/layout/holy-grail/' }
           ]
         }
       ]

@@ -28,8 +28,13 @@
     "gh-pages": "^3.0.0",
     "jest": "^27.0.6",
     "lint-staged": "^10.0.7",
+    "markdown-it": "^12.2.0",
+    "markdown-it-container": "^3.0.0",
     "prettier": "^1.19.1",
     "vitepress": "^0.20.0",
     "yorkie": "^2.0.0"
+  },
+  "dependencies": {
+    "globby": "^12.0.2"
   }
 }
