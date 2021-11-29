@@ -16,33 +16,33 @@ features:
 footer: MIT Licensed | Copyright © 2021-present
 ---
 
-## 边框与背景
+## Todo
 
-- [ ] 边框圆角
-- [ ] 盒子模型
+- 边框与背景
 
-## 形状
+  - [ ] 边框圆角
+  - [ ] 盒子模型
 
-- [ ] 选择器
+- 形状
 
-## 视觉效果
+  - [ ] 选择器
 
-## 用户体验
+- 视觉效果
+- 用户体验
+- 结构布局
 
-## 结构布局
+  - [ ] 定位、浮动
+  - [ ] 弹性布局
 
-- [ ] 定位、浮动
-- [ ] 弹性布局
-
-## 动画过渡
-
-- [ ] 背景、渐变
-- [ ] 过渡、动画
-- [ ] 2D、3D 转换
+- 动画过渡
+  - [ ] 背景、渐变
+  - [ ] 过渡、动画
+  - [ ] 2D、3D 转换
 
 ## 网站
 
 - [codepen](https://codepen.io)
+- [Josh Comeau](https://www.joshwcomeau.com/tutorials/)
 - [awwwards](https://www.awwwards.com)
 - [csslayout](https://csslayout.io)
 - [css inspiration](https://chokcoco.github.io/CSS-Inspiration)

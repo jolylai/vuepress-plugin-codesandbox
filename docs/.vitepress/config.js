@@ -11,20 +11,25 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       {
-        text: '指南',
-        link: '/guide/box-model/margin/',
-        activeMatch: '^/guide/'
+        text: 'CSS',
+        link: '/css/box-model/margin/',
+        activeMatch: '^/css/'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/css/': [
+        {
+          text: '指南',
+          collapsable: false,
+          children: [{ text: 'reset', link: '/css/guide/css-reset/' }]
+        },
         {
           text: '盒子模型',
           collapsable: false,
           children: [
-            { text: 'content', link: '/guide/box-model/content/' },
-            { text: 'padding', link: '/guide/box-model/padding/' },
-            { text: 'margin', link: '/guide/box-model/margin/' }
+            { text: 'content', link: '/css/box-model/content/' },
+            { text: 'padding', link: '/css/box-model/padding/' },
+            { text: 'margin', link: '/css/box-model/margin/' }
           ]
         },
         {
@@ -33,7 +38,7 @@ module.exports = {
           children: [
             {
               text: 'vertical-align',
-              link: '/guide/typography/vertical-align/'
+              link: '/css/typography/vertical-align/'
             }
           ]
         },
@@ -41,10 +46,10 @@ module.exports = {
           text: '结构与布局',
           collapsable: false,
           children: [
-            { text: '浮动', link: '/guide/layout/float/' },
-            { text: 'Flex', link: '/guide/layout/flex/' },
-            { text: '自适应内部元素', link: '/guide/layout/intrinsic-sizing/' },
-            { text: '圣杯布局', link: '/guide/layout/holy-grail/' }
+            { text: '浮动', link: '/css/layout/float/' },
+            { text: 'Flex', link: '/css/layout/flex/' },
+            { text: '自适应内部元素', link: '/css/layout/intrinsic-sizing/' },
+            { text: '圣杯布局', link: '/css/layout/holy-grail/' }
           ]
         }
       ]
