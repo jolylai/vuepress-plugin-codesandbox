@@ -35,6 +35,7 @@
     "yorkie": "^2.0.0"
   },
   "dependencies": {
+    "@ant-design/colors": "^6.0.0",
     "globby": "^12.0.2"
   }
 }

@@ -21,7 +21,10 @@ module.exports = {
         {
           text: '指南',
           collapsable: false,
-          children: [{ text: 'reset', link: '/css/guide/css-reset/' }]
+          children: [
+            { text: '色彩', link: '/css/guide/color/' },
+            { text: 'reset', link: '/css/guide/css-reset/' }
+          ]
         },
         {
           text: '盒子模型',
