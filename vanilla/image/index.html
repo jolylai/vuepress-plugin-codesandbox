@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>图片</title>
+    <link rel="stylesheet" href="../../theme/index.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>头像</h2>
+
+    <span class="avatar">
+      <img
+        src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+      />
+    </span>
+
+    <h2>Object fit</h2>
+
+    <h4>原图</h4>
+    <img
+      src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+      class="object-contain"
+    />
+    <div style="display: flex">
+      <div class="mr-4">
+        <h4>object-contain</h4>
+        <span class="avatar avatar-lg bg-slate-300 ">
+          <img
+            src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+            class="object-contain"
+          />
+        </span>
+      </div>
+      <div class="mr-4">
+        <h4>object-cover</h4>
+        <span class="avatar avatar-lg">
+          <img
+            src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+            class="object-cover"
+          />
+        </span>
+      </div>
+      <div class="mr-4">
+        <h4>object-fill</h4>
+        <span class="avatar avatar-lg">
+          <img
+            src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+            class="object-fill"
+          />
+        </span>
+      </div>
+      <div class="mr-4">
+        <h4>object-none</h4>
+        <span class="avatar avatar-lg">
+          <img
+            src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+            class="object-none"
+          />
+        </span>
+      </div>
+      <div class="mr-4">
+        <h4>object-scale-down</h4>
+        <span class="avatar avatar-lg">
+          <img
+            src="https://cy-picgo.oss-cn-hangzhou.aliyuncs.com/jucy-beef-burger.jpg"
+            class="object-scale-down"
+          />
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

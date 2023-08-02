@@ -1,0 +1,36 @@
+body {
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, Helvetica Neue,
+    Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB,
+    Microsoft Yahei, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+
+  /* text */
+  color: #34495e;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border-top: 1px solid #f2f3f5;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}

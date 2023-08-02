@@ -1,11 +1,21 @@
 ---
-home: true
-# heroImage: /logo.png
-# heroAlt: Logo image
-heroText: CSS
-tagline: Notebook of CSS
-actionText: Get Started
-actionLink: /guide/box-model/content/
+layout: home
+
+title: CSS Notebook
+titleTemplate: Notebook of CSS
+
+hero:
+  name: CSS Notebook
+  text: Notebook of CSS
+  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/box-model/content
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/jolylai/notebook-css
+
 features:
   - title: 盒模型
     details: 盒模型
@@ -13,42 +23,4 @@ features:
     details: 结构布局
   - title: 排版
     details: 文字排版
-footer: MIT Licensed | Copyright © 2021-present
 ---
-
-## Todo
-
-- 边框与背景
-
-  - [ ] 边框圆角
-  - [ ] 盒子模型
-
-- 形状
-
-  - [ ] 选择器
-
-- 视觉效果
-- 用户体验
-- 结构布局
-
-  - [ ] 定位、浮动
-  - [ ] 弹性布局
-
-- 动画过渡
-  - [ ] 背景、渐变
-  - [ ] 过渡、动画
-  - [ ] 2D、3D 转换
-
-## 网站
-
-- [codepen](https://codepen.io)
-- [Josh Comeau](https://www.joshwcomeau.com/tutorials/)
-- [awwwards](https://www.awwwards.com)
-- [csslayout](https://csslayout.io)
-- [css inspiration](https://chokcoco.github.io/CSS-Inspiration)
-- [animista](https://animista.net)
-- [Material](https://material-components.github.io/material-components-web-catalog/#/)
-- [Bootstrap](https://v3.bootcss.com/components/)
-- [挑战](https://css-tricks.com/front-end-challenges/)
-- [30css](https://www.30secondsofcode.org/css/s/transform-centering/)
-- [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/zh-cn/)

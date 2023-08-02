@@ -5,8 +5,12 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "docs:deploy": "gh-pages -d docs-dist",
     "deploy": "npm run docs:build && npm run docs:deploy",
+    "docs:dev": "vitepress dev docs",
+    "docs:serve": "vitepress serve docs",
+    "docs:deploy": "gh-pages -d ./docs/.vitepress/dist",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
     "release": "pnpm changelogen --release --push",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
