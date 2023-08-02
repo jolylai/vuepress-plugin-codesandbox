@@ -1,17 +1,16 @@
 {
   "private": true,
   "name": "notebook-css",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
-    "start": "vitepress dev docs",
+    "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "test": "jest",
     "docs:deploy": "gh-pages -d docs-dist",
     "deploy": "npm run docs:build && npm run docs:deploy",
+    "release": "pnpm changelogen --release --push",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
-  "main": "dist/index.js",
-  "gitHooks": {
+  "simple-git-hooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
@@ -23,19 +22,15 @@
     ]
   },
   "devDependencies": {
-    "@sucrase/jest-plugin": "^2.1.1",
-    "@vue/test-utils": "^1.2.2",
+    "changelogen": "^0.5.4",
     "gh-pages": "^3.0.0",
-    "jest": "^27.0.6",
+    "globby": "^12.2.0",
     "lint-staged": "^10.0.7",
-    "markdown-it": "^12.2.0",
-    "markdown-it-container": "^3.0.0",
     "prettier": "^1.19.1",
-    "vitepress": "1.0.0-alpha.4",
-    "yorkie": "^2.0.0"
+    "simple-git-hooks": "^2.9.0",
+    "vitepress": "1.0.0-beta.7"
   },
   "dependencies": {
-    "@ant-design/colors": "^6.0.0",
-    "globby": "^12.0.2"
+    "@ant-design/colors": "^6.0.0"
   }
 }
