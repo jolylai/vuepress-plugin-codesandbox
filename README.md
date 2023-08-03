@@ -37,6 +37,10 @@
 - [ ] 边框圆角
 - [ ] 背景、渐变
 
+## Demo
+
+[markdown-it-vitepress-demo](https://github.com/hairyf/markdown-it-vitepress-demo)
+
 ## Challenges
 
 - [frontend-mini-challenges](https://github.com/sadanandpai/frontend-mini-challenges)

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import demoPlugin from 'markdown-it-vitepress-demo'
 import pkg from '../../package.json'
 
 export default defineConfig({
@@ -39,7 +40,10 @@ export default defineConfig({
     ]
   },
   markdown: {
-    lineNumbers: false
+    lineNumbers: false,
+    config(md) {
+      md.use(demoPlugin)
+    }
   }
 })
 
@@ -65,10 +69,8 @@ function getGuideSidebar() {
     {
       text: '排版',
       items: [
-        {
-          text: 'vertical-align',
-          link: '/guide/typography/'
-        }
+        { text: '字体', link: '/guide/typography/font/' },
+        { text: 'vertical-align', link: '/guide/typography/' }
       ]
     },
     {

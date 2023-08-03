@@ -2,6 +2,8 @@
 
 <!-- <iframe src="//player.bilibili.com/player.html?aid=414051684&bvid=BV13V411z7do&cid=217294401&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width='100%' height='600'> </iframe> -->
 
+<demo src='./demos/demo1.vue' />
+
 ## 什么是替换元素
 
 根据是否具有可替换内容，我们也可以把元素分为`替换元素`和`非替换元素`。
