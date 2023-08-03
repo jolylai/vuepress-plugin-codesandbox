@@ -70,6 +70,7 @@ function getGuideSidebar() {
       text: '排版',
       items: [
         { text: '字体', link: '/guide/typography/font/' },
+        { text: '文字省略', link: '/guide/typography/ellipsis/' },
         { text: 'vertical-align', link: '/guide/typography/' }
       ]
     },
