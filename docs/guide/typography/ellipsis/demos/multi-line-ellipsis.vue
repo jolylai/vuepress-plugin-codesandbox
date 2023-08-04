@@ -1,5 +1,5 @@
 <template>
-  <div class="ellipsis-l2">{{ '很长的文字'.repeat(20) }}</div>
+  <div class="ellipsis-l2">{{ '很长的文字'.repeat(30) }}</div>
 </template>
 
 <style scoped>

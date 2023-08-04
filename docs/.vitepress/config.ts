@@ -88,10 +88,8 @@ function getGuideSidebar() {
     {
       text: '过渡与动画',
       items: [
-        {
-          text: '缓动效果',
-          link: '/guide/animation/easing'
-        }
+        { text: '缓动效果', link: '/guide/animation/easing' },
+        { text: 'Loading', link: '/guide/animation/loading/' }
       ]
     }
   ]
