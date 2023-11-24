@@ -2,6 +2,7 @@
   "private": true,
   "name": "notebook-css",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -12,10 +13,12 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "release": "pnpm changelogen --release --push",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "simple-git-hooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
@@ -23,13 +26,16 @@
     ],
     "*.ts?(x)": [
       "prettier --parser=typescript --write"
-    ]
+    ],
+    "*": "eslint --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.1.0",
     "changelogen": "^0.5.4",
+    "eslint": "^8.54.0",
     "gh-pages": "^3.0.0",
     "globby": "^12.2.0",
-    "lint-staged": "^10.0.7",
+    "lint-staged": "^10.5.4",
     "markdown-it-vitepress-demo": "^0.1.11",
     "prettier": "^1.19.1",
     "simple-git-hooks": "^2.9.0",
