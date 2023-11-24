@@ -6,14 +6,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "deploy": "npm run docs:build && npm run docs:deploy",
-    "docs:dev": "vitepress dev docs",
-    "docs:serve": "vitepress serve docs",
-    "docs:deploy": "gh-pages -d ./docs/.vitepress/dist",
-    "test": "vitest",
-    "test:coverage": "vitest --coverage",
+    "preview": "vitepress preview docs",
     "release": "pnpm changelogen --release --push",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -21,25 +15,16 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ],
     "*": "eslint --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.1.0",
     "changelogen": "^0.5.4",
     "eslint": "^8.54.0",
-    "gh-pages": "^3.0.0",
-    "globby": "^12.2.0",
     "lint-staged": "^10.5.4",
     "markdown-it-vitepress-demo": "^0.1.11",
-    "prettier": "^1.19.1",
     "simple-git-hooks": "^2.9.0",
-    "vitepress": "1.0.0-beta.7"
+    "vitepress": "1.0.0-rc.30"
   },
   "dependencies": {
     "@ant-design/colors": "^6.0.0"
