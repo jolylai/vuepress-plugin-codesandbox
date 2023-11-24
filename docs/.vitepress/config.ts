@@ -100,7 +100,7 @@ function getComponentsSidebar() {
     {
       text: '通用组件',
       items: [{ text: 'Button 按钮', link: '/components/button' }]
-    }
+    },
     // {
     //   text: '布局',
     //   items: [
@@ -119,16 +119,16 @@ function getComponentsSidebar() {
     //   text: '导航',
     //   items: [{ text: 'Affix 固钉', link: '/components/affix/' }],
     // },
-    // {
-    //   text: '数据展示',
-    //   items: [
-    //     { text: 'Avatar 头像', link: '/components/avatar/' },
-    //     { text: 'Badge 徽章', link: '/components/badge/' },
-    //     { text: 'Table', link: '/components/table/' },
-    //     { text: 'Popper', link: '/components/popper/' },
-    //     { text: 'Tooltip', link: '/components/tooltip/' },
-    //   ],
-    // },
+    {
+      text: '数据展示',
+      items: [
+        { text: 'Avatar 头像', link: '/components/avatar/' },
+        { text: 'Badge 徽章', link: '/components/badge/' },
+        { text: 'Table', link: '/components/table/' },
+        { text: 'Popper', link: '/components/popper/' },
+        { text: 'Tooltip', link: '/components/tooltip/' }
+      ]
+    }
     // {
     //   text: '反馈',
     //   items: [
