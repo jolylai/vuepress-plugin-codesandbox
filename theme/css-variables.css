@@ -1,0 +1,78 @@
+:root {
+  /* Color Palette */
+  --x-black: #000;
+  --x-white: #fff;
+  --x-gray-1: #f7f8fa;
+  --x-gray-2: #f2f3f5;
+  --x-gray-3: #ebedf0;
+  --x-gray-4: #dcdee0;
+  --x-gray-5: #c8c9cc;
+  --x-gray-6: #969799;
+  --x-gray-7: #646566;
+  --x-gray-8: #323233;
+  --x-red: #ee0a24;
+  --x-blue: #1989fa;
+  --x-orange: #ff976a;
+  --x-orange-dark: #ed6a0c;
+  --x-orange-light: #fffbe8;
+  --x-green: #07c160;
+
+  /* Gradient Colors */
+  --x-gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
+  --x-gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
+
+  /* Component Colors */
+  --x-primary-color: var(--x-blue);
+  --x-success-color: var(--x-green);
+  --x-danger-color: var(--x-red);
+  --x-warning-color: var(--x-orange);
+  --x-text-color: var(--x-gray-8);
+  --x-text-color-2: var(--x-gray-6);
+  --x-text-color-3: var(--x-gray-5);
+  --x-active-color: var(--x-gray-2);
+  --x-active-opacity: 0.6;
+  --x-disabled-opacity: 0.5;
+  --x-background: var(--x-gray-1);
+  --x-background-2: var(--x-white);
+  --x-background-3: var(--x-white);
+
+  /* Padding */
+  --x-padding-base: 4px;
+  --x-padding-xs: 8px;
+  --x-padding-sm: 12px;
+  --x-padding-md: 16px;
+  --x-padding-lg: 24px;
+  --x-padding-xl: 32px;
+
+  /* Font */
+  --x-font-bold: 600;
+  --x-font-size-xs: 10px;
+  --x-font-size-sm: 12px;
+  --x-font-size-md: 14px;
+  --x-font-size-lg: 16px;
+  --x-line-height-xs: 14px;
+  --x-line-height-sm: 18px;
+  --x-line-height-md: 20px;
+  --x-line-height-lg: 22px;
+  /* stylelint-disable */
+  --x-base-font: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'miui',
+    'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  --x-price-font: avenir-heavy, 'PingFang SC', helvetica neue, arial,
+    sans-serif;
+  /* stylelint-enable */
+
+  /* Animation */
+  --x-duration-base: 0.3s;
+  --x-duration-fast: 0.2s;
+  --x-ease-out: ease-out;
+  --x-ease-in: ease-in;
+
+  /* Border */
+  --x-border-color: var(--x-gray-3);
+  --x-border-width: 1px;
+  --x-radius-sm: 2px;
+  --x-radius-md: 4px;
+  --x-radius-lg: 8px;
+  --x-radius-max: 999px;
+}

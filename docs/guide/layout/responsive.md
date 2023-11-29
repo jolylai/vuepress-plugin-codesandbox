@@ -2,6 +2,16 @@
 
 媒体查询可以根据用户设备、浏览器或系统设置的匹配条件修改外观(甚至行为)或网站或应用程序。
 
+## 断点
+
+Bulma has 4 breakpoints which defines 5 screen sizes:
+
+mobile: up to 768px
+tablet: from 769px
+desktop: from 1024px
+widescreen: from 1216px
+fullhd: from 1408px
+
 ## 使用媒体查询
 
 ```html

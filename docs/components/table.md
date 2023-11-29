@@ -19,7 +19,7 @@ const span = {
   lg: 12,
   xl: 8,
   xxl: 6,
-};
+}
 
 /** 配置表单列变化的容器宽度断点 */
 const BREAKPOINTS = {
@@ -28,16 +28,16 @@ const BREAKPOINTS = {
     [513, 1, 'vertical'],
     [785, 2, 'vertical'],
     [1057, 3, 'vertical'],
-    [Infinity, 4, 'vertical'],
+    [Number.POSITIVE_INFINITY, 4, 'vertical'],
   ],
   default: [
     [513, 1, 'vertical'],
     [701, 2, 'vertical'],
     [1062, 3, 'horizontal'],
     [1352, 3, 'horizontal'],
-    [Infinity, 4, 'horizontal'],
+    [Number.POSITIVE_INFINITY, 4, 'horizontal'],
   ],
-};
+}
 ```
 
 ## Columns
@@ -49,7 +49,7 @@ const columns = [
     dataIndex: 'mobile',
     width: 120,
   },
-];
+]
 ```
 
 ### valueType
@@ -121,7 +121,7 @@ const options = [
     label: `颜色选择器`,
     initialValue: '#1890ff',
   },
-];
+]
 ```
 
 ## 数据请求

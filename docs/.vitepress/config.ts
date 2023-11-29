@@ -50,12 +50,13 @@ export default defineConfig({
 function getGuideSidebar() {
   return [
     {
-      text: '主题',
+      text: '指南',
       items: [
+        { text: '快速开始', link: '/guide/getting-started' },
+        { text: 'Unocss', link: '/guide/unocss' },
+        { text: '主题', link: '/guide/theme' },
         { text: '色彩', link: '/guide/colors/' },
-        { text: '默认样式重置', link: '/guide/theme/reset' },
         { text: '内置样式', link: '/guide/theme/built-in' },
-        { text: 'CSS 变量', link: '/guide/theme/variables' }
       ]
     },
     {

@@ -1,4 +1,23 @@
-## CSS Reset
+# 主题
+
+```
+.
+├── base.less      # 基础样式入口
+└── normalize.less  # 样式重置
+├── css-variables.less # css 变量
+├── animation.less  # 动画
+├── mixins
+│   ├── clearfix.less # 清除浮动
+│   ├── ellipsis.less # 文字溢出省略号
+│   └── hairline.less # 1px 边框
+```
+
+## CSS 变量
+
+[vant](https://github.com/youzan/vant/blob/17a65c147162be4fe4a475b450c462d61c4879d5/packages/vant/src/style/css-variables.less) 的 css 变量
+
+
+## 样式重置
 
 ```css
 html {
@@ -111,6 +130,6 @@ h6 {
 }
 ```
 
-#### reference
+**reference**
 
 - [custom-css-reset](https://www.joshwcomeau.com/css/custom-css-reset/)

@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/box-model/content
+      link: /guide/getting-started
     - theme: alt
       text: View on GitHub
       link: https://github.com/jolylai/notebook-css
